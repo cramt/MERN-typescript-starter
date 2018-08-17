@@ -1,0 +1,9 @@
+{
+  "ignore": ["client"],
+  "events": {
+    "restart": ""
+  },
+  "ext": "ts js styl",
+  "exec": "ts-node ./server/app.ts",
+  "watch": ["server"]
+}
